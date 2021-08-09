@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+  }
+@font-face {
+  font-family: "Inter Black";
+  src: url(./fonts/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url(./fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter Extra Bold";
+  src: url(./fonts/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Inter Light";
+  src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url(./fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url(./fonts/Inter-SemiBold.ttf);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background-color: #fbf8f3;
+}
+.nav-links ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 80px;
+}
+.nav-links .nav-link {
+  font-family: "Inter Medium";
+  margin-right: 10px;
+  cursor: pointer;
+}
+.heade a {
+  font-family: "Inter Extra Bold";
+  font-size: 2rem;
+  cursor: pointer;
+}
+.nav-link a {
+  color: black;
+}
+.reg {
+  display: flex;
+}
+.reg .sign-in {
+  margin-right: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.reg .sign-in > a {
+  font-family: "Inter Extra Bold";
+  font-size: 2rem;
+}
+.reg .sign-up {
+  background-color: #4d13d1;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.reg .sign-up > a {
+  font-family: "Inter Extra Bold";
+  font-size: 2rem;
+}
+
+/* @media screen and (min-width: 620px){
+      
+} 
+@media screen and (min-width: 620px){
+      
+}
+@media screen and (min-width: 620px){
+      
+} */
