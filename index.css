@@ -8,7 +8,7 @@ li {
 a {
   list-style-type: none;
   text-decoration: none;
-  }
+}
 @font-face {
   font-family: "Inter Black";
   src: url(./fonts/Inter-Black.ttf);
@@ -84,13 +84,185 @@ a {
 .reg .sign-up {
   background-color: #4d13d1;
   color: white;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
 }
 .reg .sign-up > a {
   font-family: "Inter Extra Bold";
   font-size: 2rem;
+}
+
+.hero {
+  display: flex;
+  background-color: #fbf8f3;
+  padding-bottom: 80px;
+}
+.hero-text {
+  padding: 40px 20px 80px 40px;
+}
+.rated {
+  margin: 10px;
+}
+.rated p {
+  font-family: "Inter Medium";
+  color: black;
+}
+.hero-text .review {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+}
+.head h1 {
+  font-family: "Inter Extra Bold";
+  font-size: 4rem;
+  color: black;
+}
+.head p {
+  font-family: "Inter Light";
+  color: black;
+}
+
+.btns {
+  display: flex;
+  padding-top: 30px;
+}
+
+.btns .trial {
+  background-color: #4d13d1;
+  padding: 20px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.trial a {
+  color: white;
+  font-family: "Inter Medium";
+}
+
+.btns .view {
+  padding: 20px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.view a {
+  text-decoration: underline;
+  font-family: "Inter Medium";
+}
+
+.hero-text .card {
+  display: flex;
+  align-items: center;
+}
+.card {
+  padding-top: 25px;
+  display: flex;
+}
+
+.card .credit {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.credit p {
+  font-family: "Inter Light";
+  margin-left: 10px;
+}
+
+.card .template {
+  display: flex;
+  align-items: center;
+}
+.template p {
+  font-family: "Inter Light";
+  margin-left: 10px;
+}
+
+.hero .hero-pic img {
+  width: 550px;
+}
+
+.why {
+  background-color: white;
+  padding: 30px 40px;
+}
+.why-fiber h1 {
+  color: #4d13d1;
+  font-size: 1.6em;
+  font-family: "Inter Black";
+  padding-bottom: 30px;
+}
+
+.why-fiber p {
+  color: black;
+  font-family: "Inter Bold";
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+
+.why-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.why-card h1 {
+  color: black;
+  font-family: "Inter Bold";
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.why-card p {
+  color: black;
+  font-family: "Inter Light";
+  font-size: 1.2rem;
+}
+
+.diverse {
+  background-color: #4d13d1;
+  border-radius: 5px;
+}
+.diverse {
+  display: flex;
+  width: 100%;
+}
+.diverse .left-verse {
+  width: 45%;
+  padding: 150px 20px;
+}
+.left-verse h1 {
+  color: #fbf8f3;
+  padding-bottom: 15px;
+  font-family: "Inter Extra Bold";
+}
+.left-verse p {
+  color: #fbf8f3;
+  padding-bottom: 15px;
+  font-family: "Inter Regular";
+}
+
+.left-verse .start {
+  background-color: #fbf8f3;
+  display: inline-block;
+  padding: 12px 18px;
+  color: #4d13d1;
+  border-radius: 4px;
+}
+.start a {
+  font-family: "Inter Bold";
+}
+
+.diverse .right-verse {
+  width: 65%;
+}
+.right-verse .image {
+  padding-top: 50px;
+  margin-bottom: -4px;
+}
+.right-verse .image img {
+  height: 450px;
+  width: 680px;
 }
 
 /* @media screen and (min-width: 620px){
