@@ -8,6 +8,7 @@ li {
 a {
   list-style-type: none;
   text-decoration: none;
+  color: inherit;
 }
 @font-face {
   font-family: "Inter Black";
@@ -156,6 +157,7 @@ a {
 .view a {
   text-decoration: underline;
   font-family: "Inter Medium";
+  color: #4d13d1;
 }
 
 .hero-text .card {
