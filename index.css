@@ -105,6 +105,7 @@ a {
 .hero-text {
   padding: 40px 20px 80px 40px;
 }
+
 .rated {
   margin: 10px;
 }
@@ -136,6 +137,7 @@ a {
 
 .btns {
   display: flex;
+  padding-top: 20px;
 }
 
 .btns .trial {
