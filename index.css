@@ -506,9 +506,61 @@ footer {
   }
 }
 
-/* @media screen and (max-width: 960px){
+@media screen and (max-width: 768px){
+  .hero-pic{
+    height: 519px;
+    width: 426px !important;
+    padding-top: 61px;
+}
+.review .star{
+  width: 110px;
 
 }
-@media screen and (min-width: 1207px){
+.reg .sign-in{
+  display: none;
+}
+.review .rated{
+  width: 115px;
+}
+.hero-text{
+  padding: 40px 20px 80px 30px;
+}
       
-} */
+  .hero-pic img{ 
+    width: 341px !important;
+  }  
+  .hero-text .review{
+    padding-top: unset;
+  }
+    .right-verse .image img{
+      width: 376px !important;
+    }
+    footer{
+      flex-direction: column;
+    }
+    .footleft {
+      margin-left: 0px;
+      margin-right: 20px;
+    }
+    .footleft .list a {
+      margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+  .right-verse .image img {
+    height: 547px;
+    width: 485px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px){
+  .right-verse .image img{
+    width: unset;
+  }    
+}
+
