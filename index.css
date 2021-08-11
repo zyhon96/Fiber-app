@@ -391,11 +391,11 @@ footer {
     flex-direction: column-reverse;
   }
   .hero-pic {
-    width: auto;
+    width: unset !important;
     height: unset !important;
   }
   .hero-pic img {
-    width: 100% !important;
+    width: 300px !important;
   }
   .hero-text .review {
     display: none;
@@ -527,7 +527,7 @@ footer {
   }
 
   .hero-pic img {
-    width: 341px !important;
+    width: 310px !important ;
   }
   .hero-text .review {
     padding-top: unset;
