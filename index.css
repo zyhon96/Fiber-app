@@ -116,7 +116,7 @@ a {
 .hero-text .review {
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 .head h1 {
   font-family: "Inter Extra Bold";
@@ -391,6 +391,11 @@ footer {
   .review .rated {
     width: 115px;
   }
+  .hero {
+    display: flex;
+    background-color: #fbf8f3;
+    padding-bottom: 20px;
+}
   .hero-text {
     padding: 40px 20px 80px 30px;
   }
@@ -399,7 +404,7 @@ footer {
     width: 310px !important ;
   }
   .hero-text .review {
-    padding-top: unset;
+    padding-top: 50px;
   }
   .right-verse .image img {
     width: 376px !important;
