@@ -52,6 +52,9 @@ body .left {
 .nav a {
   font-family: "Inter SemiBold";
   font-size: 1.8rem;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
 }
 .nav {
   padding-bottom: 50px;
