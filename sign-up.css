@@ -70,14 +70,20 @@ label {
   font-size: 1.7rem;
 }
 
+
 input[type="text"] {
   padding: 12px 15px;
   width: 373px;
   text-align: end;
+  outline: none;
+  border: 1px solid rgb(194, 193, 193, 0.5);
+  border-radius: 4px;
 }
 input[type="password"] {
   text-align: end;
-
+  outline: none;
+  border: 1px solid rgb(194, 193, 193, 0.5);
+  border-radius: 4px;
   padding: 12px 15px;
   width: 373px;
 }
@@ -158,3 +164,81 @@ body .right {
   font-family: "Inter SemiBold";
   color: white;
 }
+
+
+
+
+@media screen and (max-width: 620px){
+  body{
+    display: unset;
+    
+  }
+  body .left{
+    padding: 40px -1px 10px 30px;
+  }
+.right{
+  display: none;
+}
+.nav{
+  padding-bottom: 30px;
+}
+.nav a{
+  font-size: 0.8rem;
+}
+.title h1{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.nahme, .hemail , .pashwud{
+  padding-bottom: 20px;
+}
+
+
+.agree{
+  padding-top: 0;
+}
+.agree .terms{
+  font-size: 0.8rem;
+
+}
+label {
+  font-family: "Inter SemiBold";
+  font-size: 0.8rem;
+}
+
+input[type="text"] {
+  padding: 12px 15px;
+  width: auto;
+  text-align: end;
+  outline: none;
+  border: 1px solid rgb(194, 193, 193, 0.5);
+  border-radius: 4px;
+}
+input[type="password"] {
+  text-align: end;
+  outline: none;
+  border: 1px solid rgb(194, 193, 193, 0.5);
+  border-radius: 4px;
+  padding: 12px 15px;
+  width: auto;
+}
+form button{
+  padding: 11px 10px;
+  width: auto;
+}
+.bott{
+  margin: auto;
+  width: 300px;
+}
+.bott p{
+  width: auto;
+}
+
+
+}
+@media screen and (max-width: 960px){
+
+  }
+  @media screen and (max-width: 1024px){
+
+  }
