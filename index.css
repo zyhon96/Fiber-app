@@ -116,7 +116,7 @@ a {
 .hero-text .review {
   display: flex;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 50px;
 }
 .head h1 {
   font-family: "Inter Extra Bold";
