@@ -374,7 +374,10 @@ footer {
   display: flex;
 }
 
-
+.topnav {
+  display: none;
+  
+}
 
 @media screen and (max-width: 768px) {
   .hero-pic {
@@ -395,7 +398,7 @@ footer {
     display: flex;
     background-color: #fbf8f3;
     padding-bottom: 20px;
-}
+  }
   .hero-text {
     padding: 40px 20px 80px 30px;
   }
@@ -419,11 +422,14 @@ footer {
   .footleft .list a {
     margin-bottom: 15px;
   }
-}
+  
+
+
 @media screen and (max-width: 620px) {
   header .nav-links {
     display: none;
   }
+
   .reg {
     display: none;
   }
@@ -551,6 +557,55 @@ footer {
   .footleft .list a {
     margin-bottom: 15px;
   }
+  header {
+    display: none !important;
+  }
+  
+  /* wsjqhjewrf */
+  
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display: block;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    background-color: #fbf8f3;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 26px;
+    display: block;
+    font-family: "Inter Bold";
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 30px;
+    padding-right: 50px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #fbf8f3;
+    color: black;
+  }
+  /* dfajdsfhjdsaf */
+}
 }
 @media screen and (max-width: 960px) {
   .right-verse .image img {
