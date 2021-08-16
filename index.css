@@ -376,7 +376,6 @@ footer {
 
 .topnav {
   display: none;
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -422,190 +421,187 @@ footer {
   .footleft .list a {
     margin-bottom: 15px;
   }
-  
 
+  @media screen and (max-width: 620px) {
+    header .nav-links {
+      display: none;
+    }
 
-@media screen and (max-width: 620px) {
-  header .nav-links {
-    display: none;
-  }
+    .reg {
+      display: none;
+    }
+    .hamburg {
+      display: unset;
+    }
+    .nav {
+      padding: 40px 50px;
+    }
+    .hero {
+      flex-direction: column-reverse;
+    }
+    .hero-pic {
+      width: unset !important;
+      height: unset !important;
+    }
+    .hero-pic img {
+      width: 350px !important;
+    }
+    .hero-text .review {
+      display: none;
+    }
+    .head p {
+      padding-bottom: 20px;
+    }
+    .hero-text .btns {
+      flex-direction: column;
+      margin-top: 10px;
+    }
 
-  .reg {
-    display: none;
-  }
-  .hamburg {
-    display: unset;
-  }
-  .nav {
-    padding: 40px 50px;
-  }
-  .hero {
-    flex-direction: column-reverse;
-  }
-  .hero-pic {
-    width: unset !important;
-    height: unset !important;
-  }
-  .hero-pic img {
-    width: 350px !important;
-  }
-  .hero-text .review {
-    display: none;
-  }
-  .head p {
-    padding-bottom: 20px;
-  }
-  .hero-text .btns {
-    flex-direction: column;
-    margin-top: 10px;
-  }
+    .btns .trial a {
+      text-align: center;
+      margin-left: 80px;
+    }
 
-  .btns .trial a {
-    text-align: center;
-    margin-left: 80px;
-  }
+    .btns .view a {
+      text-align: center;
+      margin-left: 80px;
+    }
+    .head h1 {
+      display: none;
+    }
+    .head .eh {
+      display: unset;
+    }
+    .head p {
+      display: none;
+    }
+    .head .eg {
+      display: unset;
+      font-size: 1.3rem;
+    }
 
-  .btns .view a {
-    text-align: center;
-    margin-left: 80px;
-  }
-  .head h1 {
-    display: none;
-  }
-  .head .eh {
-    display: unset;
-  }
-  .head p {
-    display: none;
-  }
-  .head .eg {
-    display: unset;
-    font-size: 1.3rem;
-  }
+    .hero-text .head p .eg {
+      padding-bottom: 10px;
+    }
+    .hero-text .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .card .credit p {
+      text-align: center;
+    }
+    .card .template {
+      text-align: center;
+      padding-top: 20px;
+    }
 
-  .hero-text .head p .eg {
-    padding-bottom: 10px;
-  }
-  .hero-text .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .card .credit p {
-    text-align: center;
-  }
-  .card .template {
-    text-align: center;
-    padding-top: 20px;
-  }
+    .card .template p {
+      justify-content: center;
+    }
 
-  .card .template p {
-    justify-content: center;
-  }
+    .right-verse .image img {
+      display: none;
+    }
+    .why-fiber p {
+      display: none;
+    }
+    .why-fiber .eh {
+      display: unset;
+    }
+    .why-cards {
+      flex-direction: column;
+      padding-top: 30px;
+    }
+    .why-card {
+      padding-bottom: 20px;
+    }
+    .diverse {
+      flex-direction: column;
+    }
+    .diverse .left-verse {
+      padding: 30px 30px;
+      width: auto;
+    }
+    .diverse .right-verse {
+      display: none;
+    }
+    .portfolio-section .port-cards {
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-bottom: 20px;
+    }
 
-  .right-verse .image img {
-    display: none;
-  }
-  .why-fiber p {
-    display: none;
-  }
-  .why-fiber .eh {
-    display: unset;
-  }
-  .why-cards {
-    flex-direction: column;
-    padding-top: 30px;
-  }
-  .why-card {
-    padding-bottom: 20px;
-  }
-  .diverse {
-    flex-direction: column;
-  }
-  .diverse .left-verse {
-    padding: 30px 30px;
-    width: auto;
-  }
-  .diverse .right-verse {
-    display: none;
-  }
-  .portfolio-section .port-cards {
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-  }
+    .port-card {
+      margin-top: 30px;
+    }
+    footer {
+      flex-direction: column;
+    }
+    .foot1 p {
+      padding-bottom: 12px;
+    }
+    .foot2 {
+      flex-direction: column;
+    }
+    .footleft {
+      margin-left: 0;
+    }
+    .footleft h1 {
+      padding-bottom: 10px;
+    }
+    .footleft .list a {
+      margin-bottom: 15px;
+    }
+    header {
+      display: none !important;
+    }
 
-  .port-card {
-    margin-top: 30px;
-  }
-  footer {
-    flex-direction: column;
-  }
-  .foot1 p {
-    padding-bottom: 12px;
-  }
-  .foot2 {
-    flex-direction: column;
-  }
-  .footleft {
-    margin-left: 0;
-  }
-  .footleft h1 {
-    padding-bottom: 10px;
-  }
-  .footleft .list a {
-    margin-bottom: 15px;
-  }
-  header {
-    display: none !important;
-  }
-  
-  /* wsjqhjewrf */
-  
-  /* Style the navigation menu */
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-    display: block;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    background-color: #fbf8f3;
-    padding: 30px 40px;
-    text-decoration: none;
-    font-size: 26px;
-    display: block;
-    font-family: "Inter Bold";
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-top: 30px;
-    padding-right: 50px;
-  }
-  
-  /* Add a grey background color on mouse-over */
+    /* wsjqhjewrf */
 
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #fbf8f3;
-    color: black;
+    /* Style the navigation menu */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+      display: block;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+      display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+      background-color: #fbf8f3;
+      padding: 30px 40px;
+      text-decoration: none;
+      font-size: 26px;
+      display: block;
+      font-family: "Inter Bold";
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-top: 30px;
+      padding-right: 50px;
+    }
+
+    /* Add a grey background color on mouse-over */
+
+    /* Style the active link (or home/logo) */
+    .active {
+      background-color: #fbf8f3;
+      color: black;
+    }
+    /* dfajdsfhjdsaf */
   }
-  /* dfajdsfhjdsaf */
-}
 }
 @media screen and (max-width: 960px) {
   .right-verse .image img {
