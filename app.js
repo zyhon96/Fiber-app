@@ -8,3 +8,6 @@ togglePassword.addEventListener('click', function (e) {
     // toggle the eye / eye slash icon
     this.classList.toggle('bi-eye');
 });
+
+
+
